@@ -94,12 +94,14 @@ p{
     background-color: #FF490030;
     position: relative;
     padding: 10px 20px;
-    width: 360px;
+    width: 300px;
+    line-height: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 16px;
     border-radius: 4px;
     text-align: center;
+    text-align: left;
 }
 .desktop .hero .row .intro h1{
     color: #fff;
@@ -218,7 +220,56 @@ p{
 }
 
 
-
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
 /* portfolio */
 
@@ -392,6 +443,8 @@ p{
 }
 .reviews .row .message img{
     width: 70px;
+    height: 70px;
+    object-fit: cover;
     border-radius: 50px;
     object-fit: contain;
     margin-bottom: 20px;
@@ -480,6 +533,7 @@ p{
 }
 .footer .row img{
     margin-bottom: 30px;
+    max-width: 100px;
 }
 .footer .row .col-md-8 .row{
     margin: 0%;
@@ -600,10 +654,10 @@ p{
     }
     .reviews .row #message{
         margin-top: 40px;
-        height: 400px;
+        height: 350px;
     }
     .reviews .row .message{
-        height: 350px;
+        height: 310px;
     }
     .reviews .row #message p{
         font-size: 13px;
