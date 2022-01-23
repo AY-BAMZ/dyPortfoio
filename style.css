@@ -594,6 +594,9 @@ p{
     font-size: 25px;
     margin: 10px;
 }
+.lowerPart .otherLinks a{
+    text-decoration: none;
+}
 
 
 
