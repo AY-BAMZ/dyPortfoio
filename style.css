@@ -116,7 +116,7 @@ p{
     margin-bottom: 40px;
 }
 .desktop .hero .row .intro p{
-    color: #ffffff99;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     font-size: 14px;
@@ -667,7 +667,8 @@ p{
     }
     .footer .row .col-md-8 h2{
         padding: 0%;
-        margin: 15px !important;
+        margin: auto;
+        text-align: center !important;
     }
     .footer .row .col-md-8 .row .col-md-4{
         padding: 15px;
@@ -675,6 +676,11 @@ p{
     .lowerPart {
         background: none;
         padding: 20px;
+        text-align: center;
+    }
+    .lowerPart .otherLinks{
+        text-align: center;
+        justify-content: space-around;
     }
     .hero {
         text-align: center;
@@ -683,6 +689,9 @@ p{
         margin: 50px auto;
     }
     .portfolio{
+        text-align: center;
+    }
+    .footer{
         text-align: center;
     }
 }
