@@ -673,6 +673,15 @@ p{
         background: none;
         padding: 20px;
     }
+    .hero {
+        text-align: center;
+    }
+    .hero h5{
+        margin: 50px auto;
+    }
+    .portfolio{
+        text-align: center;
+    }
 }
 
 
