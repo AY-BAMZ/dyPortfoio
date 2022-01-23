@@ -219,10 +219,6 @@ p{
 
 
 
-
-
-
-
 /* portfolio */
 
 
@@ -542,3 +538,85 @@ p{
     font-size: 25px;
     margin: 10px;
 }
+
+
+
+/* Mobile view */
+
+
+@media only screen and (max-width: 700px) {
+    .desktop{
+        padding: 20px;
+
+    }
+    .desktop .hero .navbar {
+        justify-content: space-between;
+    }
+    .desktop .hero .navbar .navlinks{
+        margin: 0%;
+        align-items: center;
+    }
+    .desktop .hero .navbar .navlinks .logo img{
+        align-items: center;
+        margin: auto;
+    }
+    .desktop .hero .navbar .hire button{
+        margin: 0%;
+    }
+    #links{
+        display: none;
+    }
+    .desktop .hero .row .myImage{
+        max-width: 100%;
+        padding: 20px;
+        margin: 0%;
+    }
+    .desktop .hero .row .myImage img{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #aboutRow{
+        margin-top: 60px;
+        flex-direction: row-reverse;
+    }
+    .myServices{
+        margin-top: 280px !important;
+    }
+    .desktop .myServices .row .services{
+        margin: 20px 0px;
+    }
+    .desktop .portfolio .portfolioInfo{
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .servicePlan .row .plan{
+        margin: 30px auto;
+    }
+    .title h1, .title h3{
+        text-align: center;
+    }
+    .reviews .row #message{
+        margin-top: 40px;
+        height: 400px;
+    }
+    .reviews .row .message{
+        height: 350px;
+    }
+    .reviews .row #message p{
+        font-size: 13px;
+    }
+    .footer .row .col-md-8 h2{
+        padding: 0%;
+        margin: 15px !important;
+    }
+    .footer .row .col-md-8 .row .col-md-4{
+        padding: 15px;
+    }
+    .lowerPart {
+        background: none;
+        padding: 20px;
+    }
+}
+
+
