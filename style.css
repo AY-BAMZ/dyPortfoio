@@ -398,6 +398,9 @@ p{
 .servicePlan .row .plan button:hover{
     background: #FF4900 ;
 }
+.plan .fas{
+    color: #FF4900;
+}
 
 
 
@@ -464,7 +467,7 @@ p{
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #ffffff99;
+    color: #FF4900;
     font-family: 'Poppins', sans-serif;
 }
 .reviews .row .message .aboutUser .names{
